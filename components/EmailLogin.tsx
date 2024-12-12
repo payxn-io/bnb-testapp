@@ -118,14 +118,14 @@ export default function EmailSignIn() {
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "flex-start",
-                width: "50%",
+                width: "95%",
                 height: "auto",
                 border: "1px solid #333",
                 borderRadius: "8px",
-                padding: "2rem",
+                padding: "0.5rem",
                 backgroundColor: "#151515",
             }}>
-                <h1>Sign In</h1>
+                <h3>Sign In</h3>
                 <input 
                     type="text" 
                     style={{
