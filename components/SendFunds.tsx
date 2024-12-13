@@ -72,11 +72,11 @@ export const SendFunds = () => {
                 flexDirection: "column",
                 justifyContent: "center",
                 alignItems: "flex-start",
-                width: "50%",
+                width: "90%",
                 height: "auto",
                 border: "1px solid #333",
                 borderRadius: "8px",
-                padding: "2rem",
+                padding: "0.5rem",
                 backgroundColor: "#151515",
             }}>
                 <div style={{
