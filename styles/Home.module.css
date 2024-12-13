@@ -151,8 +151,8 @@
 
 .appCard {
   background-color: #131313;
-  padding: 2rem;
-  width: 80%;
+  padding: 0.5rem;
+  width: 95%;
 }
 
 .bgContainer {
@@ -161,8 +161,8 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(5px);
+  /*background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);*/
   display: flex;
   justify-content: center;
   align-items: center;

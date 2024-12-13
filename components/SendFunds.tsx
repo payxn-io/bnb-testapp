@@ -95,7 +95,7 @@ export const SendFunds = () => {
                 <div>
                     <h3>Send:</h3>
                     <p style={{
-                        fontSize: "1.5rem",
+                        fontSize: "1rem",
                         fontWeight: "bold",
                     }}>{tokenBalance?.displayValue} tBNB</p>
                 </div>

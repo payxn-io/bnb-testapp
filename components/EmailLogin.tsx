@@ -125,7 +125,8 @@ export default function EmailSignIn() {
                 padding: "0.5rem",
                 backgroundColor: "#151515",
             }}>
-                <h3>Sign In</h3>
+                <h3>Sign In <sup><i>(to send funds)</i></sup></h3>
+                
                 <input 
                     type="text" 
                     style={{

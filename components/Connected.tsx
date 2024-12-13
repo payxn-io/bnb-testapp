@@ -70,11 +70,11 @@ export const Connected = () => {
                     flexDirection: "column",
                     justifyContent: "center",
                     alignItems: "flex-start",
-                    width: "80%",
+                    width: "95%",
                     height: "auto",
                     border: "1px solid #333",
                     borderRadius: "8px",
-                    padding: "2rem",
+                    padding: "0.5rem",
                     backgroundColor: "#151515",
                 }}>
                     <h1>Username not registered</h1>
@@ -106,7 +106,7 @@ export const Connected = () => {
                 justifyContent: "space-between",
                 alignItems: "center",
             }}>
-                <h1>Welcome {usernameOfAccount}</h1>
+                <h3>Welcome {usernameOfAccount}</h3>
                 <button 
                     onClick={async() => {
                         await disconnect();
